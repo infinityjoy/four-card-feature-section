@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	  <title>Frontend Mentor | Four card feature section</title>
+	
+    <style>
+	
+body {background-color:hsl(0,0%,98%);
+		font-size:15px;
+		font-family:'poppins',san serif;
+	}	
+.container{
+	max-width: 1440px;
+	margin: 0 auto;
+		}	
+.header	{margin-top:40px;
+		text-align:center;
+		
+} 
+.header h1 {margin:0 0 5px 0;
+			color:hsl(234, 12%, 34%);
+			font-size:32px;
+			font-weight:200;
+			}
+.header h2	{ margin: 0 0 15px 0;
+				color:hsl(234, 12%, 34%);
+				font-size: 32px;
+				font-weight:600;
+			}
+.header p	{margin:0;
+			color:hsl(229, 6%, 66%);
+			line-height:1.7;
+			}
+.flex		{display:flex;
+			max-width:1100px;
+			margin: 0 auto;
+			justify-content: space-between;
+			align-items:center;
+			}
+.flex .box	{max-width:350px;
+			height:250px;
+			margin-top:30px;
+			padding-right:30px;
+			padding-left:30px;
+			border-radius:5px;
+			background-color: hsl(0, 50%, 100%);
+			color:hsl(234, 12%, 34%);
+			font-size:21px;
+			box-shadow: 0 6px 6px 6px rgb(240, 240, 240);
+			box-sizing:border-box;}
+.flex .box-cyan{
+				border-top: 3px solid hsl(180, 62%, 55%);
+				}
+
+.flex .box-red{
+				border-top: 3px solid hsl(0, 78%, 62%);
+				}
+.flex .box-orange	{
+				border-top: 3px solid hsl(34, 97%, 64%);
+				}
+
+.flex .box-blue	{	
+				border-top: 3px solid hsl(212, 86%, 64%);
+				}
+.flex h4	{margin-bottom:10px;
+			}
+.flex p	{
+			margin:0;
+			float:left;
+			color:hsl(229, 6%, 66%);
+			font-size:18px;
+			line-height:22px;
+			}
+
+.flex img	{margin-top:60px;
+			float:right;
+			}
+.attribution {	display:flex;
+			justify-content: center;
+			align-items:center;
+  margin-top: 150px;
+  
+		}
+  
+	@media(max-width:1100px)
+				{.header
+						{padding-right:20px;
+						padding-left:20px;}
+		.flex	{flex-direction:column;}
+		}
+  </style>
+</head>
+<body>
+  <div class="container">
+ 
+
+ <div class="header">
+   <h1> Reliable, efficient delivery</h1>
+  <h2> Powered by Technology</h2>
+  <p> Our Artificial Intelligence powered tools use millions of project data points<br/> 
+  to ensure that your project is successful
+</p>
+  </div>
+ 
+ <div class="flex">
+
+	<div class="main">
+ <div class="box box-cyan">
+  <h4>Supervisor</h4>
+ 
+  <p>Monitors activity to identify project roadblocks</p>
+  <img src="images/icon-supervisor.svg" alt="icon-supervisor">
+ </div>
+ </div>
+ 
+ <div class="main">
+<div class="box box-red">
+<h4>Team Builder</h4>
+<p>Scans our talent network to create the optimal team for your project</p> 
+ <img src="images/icon-team-builder.svg" alt="icon-team-builder">   
+</div>
+
+
+
+<div class="box box-orange">
+<h4>Karma</h4>
+<p>Regularly evaluates our talent to ensure quality</p>
+<img src="images/icon-karma.svg" alt="icon-karma">
+</div>
+</div>
+
+
+<div class="main">
+<div class="box box-blue">
+<h4>Calculator</h4>
+<p>Uses data from past projects to provide better delivery estimates</p> 
+ <img src="images/icon-calculator.svg" alt="icon-calculator"> 
+</div>
+</div>
+
+
+</div>  
+</div>
+
+
+  
+
+  
+  <footer>
+<div>  
+  <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">infinityjoy</a>.
+    </p>
+	</div>
+  </footer>
+
+  
+  
+</body>
+</html>
